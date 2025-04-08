@@ -1,0 +1,157 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f5faff;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    a {
+      text-decoration: none;
+      color: #ffffff;
+      margin: 0 15px;
+    }
+
+    header {
+      background: url('digitale-vectoriel.jpg') no-repeat center center/cover;
+      color: #fff;
+      position: relative;
+    }
+
+    .overlay {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 40px 20px 100px;
+      text-align: center;
+    }
+
+    .header-top {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+    }
+
+    .navbar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .navbar a {
+      font-weight: 600;
+      font-size: 1rem;
+      transition: color 0.3s;
+    }
+
+    .navbar a:hover {
+      color: #4fc3f7;
+    }
+
+    .header-content h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      font-size: 1.2rem;
+      color: #c2e9fb;
+    }
+
+    .profile-container {
+      position: absolute;
+      top: calc(100% - 60px);
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 10;
+    }
+
+    .profile-pic {
+      width: 130px;
+      height: 130px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 5px solid #fff;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+      background: #fff;
+    }
+
+    .section {
+      padding: 100px 20px 60px;
+      background: #ffffff;
+    }
+
+    .section.alt {
+      background: #e6f0ff;
+    }
+
+    .section h2 {
+      text-align: center;
+      color: #1976d2;
+      margin-bottom: 20px;
+      font-size: 2rem;
+    }
+
+    .section p, .section ul {
+      max-width: 800px;
+      margin: 0 auto;
+      font-size: 1.05rem;
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 20px;
+      text-align: center;
+      font-weight: bold;
+      padding: 20px;
+    }
+
+    .project-list {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding: 0 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .project-item {
+      background: #e3f2fd;
+      padding: 20px;
+      border-radius: 10px;
+      border-left: 6px solid #1976d2;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #1976d2;
+      color: #fff;
+      font-size: 0.95rem;
+    }
+
+    .socials {
+      text-align: center;
+      margin-top: 15px;
+    }
+
+    .socials a {
+      margin: 0 12px;
+      font-size: 1.6rem;
+      color: #1976d2;
+      transition: color 0.3s;
+    }
+
+    .socials a:hover {
+      color: #0d47a1;
+    }
+
+    ul li {
+      margin-bottom: 15px;
+    }
